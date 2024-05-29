@@ -40,7 +40,7 @@ plt.xlabel('Age')
 plt.ylabel('Debt')
 plt.legend()
 
-#plt.show() """
+plt.show() """
 
 
 
@@ -68,4 +68,4 @@ for ax in scatter_matrix.ravel():
     ax.set_xlabel(ax.get_xlabel(), fontsize=10, rotation=45)
     ax.set_ylabel(ax.get_ylabel(), fontsize=10, rotation=0)
 
-#plt.show()
+plt.show()
